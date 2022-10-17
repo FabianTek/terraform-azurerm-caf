@@ -6,7 +6,11 @@ global_settings = {
 }
 
 resource_groups = {
+<<<<<<< HEAD
   rg1 = { # Provisioned by platform team @ level 3 for your shared resorces
+=======
+  rg1 = {              # Provisioned by platform team @ level 3 for your shared resorces
+>>>>>>> a9f9ea1a (Add Logic App Standard with vnet integration)
     name = "rg-logic-app"
   }
 }
@@ -48,11 +52,11 @@ logic_app_standard = {
     }
 
     app_settings = {
-      "FUNCTIONS_WORKER_RUNTIME"     = "node",
+      "FUNCTIONS_WORKER_RUNTIME" = "node",
       "WEBSITE_NODE_DEFAULT_VERSION" = "~14",
     }
 
-  }
+  }  
 }
 
 vnets = {

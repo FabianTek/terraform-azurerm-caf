@@ -163,6 +163,10 @@ locals {
     synapse_workspaces                         = local.combined_objects_synapse_workspaces
     virtual_subnets                            = local.combined_objects_virtual_subnets
     virtual_machine_scale_sets                 = local.combined_objects_virtual_machine_scale_sets
+    wvd_application_groups                     = local.combined_objects_wvd_application_groups
+    wvd_applications                           = local.combined_objects_wvd_applications
+    wvd_host_pools                             = local.combined_objects_wvd_host_pools
+    wvd_workspaces                             = local.combined_objects_wvd_workspaces
     log_analytics                              = local.current_objects_log_analytics
   }
 
